@@ -9,5 +9,5 @@ void main()
     printf("Enter c : ");
     scanf("%f",&c);
     x = a/(b - c);
-    printf("Value of x -> %d/(%d-%d) = %d\n",a,b,c,x);
+    printf("Value of x -> %f/(%f-%f) = %f\n",a,b,c,x);
 }
