@@ -5,4 +5,5 @@ int main(){
     scanf("%f,%f,%f",&w,&b,&h);
     float volume = w*b*h;
     printf("Volume of the cuboid is : %f\n",volume);
+    return 0;
 }
