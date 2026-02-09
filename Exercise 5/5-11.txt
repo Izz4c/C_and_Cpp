@@ -1,0 +1,5 @@
+a) use curly brackets {} instead of then
+b) need () brackets around condition
+c) used assignment operator = instead of ==
+d) used =< instead of <=
+
