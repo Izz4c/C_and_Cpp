@@ -72,6 +72,21 @@ int main(){
         }
         pass++;
     }
+    for(int i=0;i<n;i++){
+        if(i==low || i == high){
+            printf("\x1B[32m");
+        }
+        if(i==curIndex){
+            printf("\x1B[36m");
+        }
+        printf("%d",array[i]);
+        if(i==low || i==high || i == curIndex){
+            printf("\x1B[0m ");
+        }
+        else{
+            printf(" ");
+        }
+    }
     if(curIndex > 0){
         printf("\nElement found at index %d!\n",curIndex);
     }
