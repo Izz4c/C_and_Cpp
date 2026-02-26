@@ -18,7 +18,7 @@ int main(){
         sorted=1;
         printf("\nPass (%d)\n",pass);
         
-        for(int i=0;i<n-1;i++){
+        for(int i=0;i<n-pass;i++){
             
             if(array[i]>array[i+1]){
                 for(int j=0;j<n;j++){
@@ -40,16 +40,19 @@ int main(){
                 int temp = array[i+1];
                 array[i+1] = array[i];
                 array[i] = temp;
-                sorted = 0; 
-            }
-            
+                sorted = 0;
+            } 
         }
+	for(int i=0;i<n;i++){
+            printf("%d ",array[i]);
+	}
+
         pass++;
     }
-    printf("=====================\nSorted Array : \n");
+    printf("\n=====================\nSorted Array : \n");
     for(int i=0;i<n;i++){
         printf("%d ",array[i]);
     }
-    
+    printf("\n");
     return 0;
 }
