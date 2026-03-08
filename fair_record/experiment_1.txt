@@ -1,0 +1,11 @@
+Aim : To find the diameter, area, and perimeter of a circle given two points on the circle that forms the diameter line
+
+OUT -->
+Enter first point (x,y) : 0,0
+Enter second point (x,y) : 0,4
+Diameter : 4.000000
+Area : 12.566371
+Perimeter : 12.566371
+
+Result : 
+The program executed successfully and printed the values of the diameter, area and perimeter.

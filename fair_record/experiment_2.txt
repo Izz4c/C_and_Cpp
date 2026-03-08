@@ -1,0 +1,16 @@
+Aim : Given marks of three subjects, find the highest mark using nested if statements, 
+find lowest mark using if-else if statements, and use conditional operator to set a 
+variable to 1 if the average of the marks is >= 50 and 0 otherwise.
+
+OUT -->
+Enter the mark of first subject (/100): 40
+Enter the mark of second subject (/100): 80
+Enter the mark of third subject (/100): 70
+Second subject has highest marks! (80/100)
+First subject has lowest marks! (40/100)
+V = 1
+
+Result : 
+The program executed successfully, accepted three marks as inputs, and printed highest marks, lowest marks and the value of V.
+
+
