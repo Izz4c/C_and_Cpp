@@ -35,7 +35,7 @@ int main(){
     else
         printf("Third subject has lowest marks! (%d/100)",m3);
 
-    float avg = (float)(m1+m2+m3)/2.0f;
+    float avg = (float)(m1+m2+m3)/3.0f;
     int V = (avg>=50)?1:0;
     printf("\nV = %d\n",V);
     return 0;
